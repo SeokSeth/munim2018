@@ -135,3 +135,15 @@ header.masthead {
       font-size: 55px; }
     header.masthead .post-heading .subheading {
       font-size: 30px; } }
+
+      .btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(51, 121, 183, 0.7);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+	    background-color: rgba(51, 121, 183,1);}
