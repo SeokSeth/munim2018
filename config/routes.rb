@@ -1,4 +1,16 @@
 Rails.application.routes.draw do
+  get 'committees/eu'
+
+  get 'committees/sc'
+
+  get 'committees/soc'
+
+  get 'committees/env'
+
+  get 'committees/disarm'
+
+  get 'committees/hist'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
