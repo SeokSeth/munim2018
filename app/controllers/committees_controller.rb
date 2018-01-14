@@ -17,19 +17,21 @@ class CommitteesController < ApplicationController
   def hist
   end
 
-  def letter
-  	send_file(
-    "#{Rails.root}/public/Final_Invitation_Letter.pdf",
-    filename: "Final_Invitation_Letter.pdf",
-    type: "application/pdf"
-    )
-  end
+ #  def letter
+ #  	send_file(
+ #    "#{Rails.root}/public/Invitation_Letter.pdf",
+ #    filename: "Invitation_Letter.pdf",
+ #    type: "application/pdf",
+ #    x_sendfile: true
+ #    )
+ #  end
   
  #  def schedule
  #  	send_file(
  #    "#{Rails.root}/public/schedule.pdf",
  #    filename: "schedule.pdf",
- #    type: "application/pdf"
+ #    type: "application/pdf",
+ #    x_sendfile: true
  #    )
  # end
 end
